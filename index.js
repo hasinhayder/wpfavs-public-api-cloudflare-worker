@@ -51,7 +51,7 @@ async function handleRequest(request) {
     });
   } else {
     return new Response(
-      "Deeveloped By <a href='https://github.com/hasinhayder' target='_blank'>Hasin Hayder</a>",
+      "Developed By <a href='https://github.com/hasinhayder' target='_blank'>Hasin Hayder</a>. Here is the <a href='https://github.com/hasinhayder/wpfavs-public-api-cloudflare-worker' target='_blank'>source code</a> of this project.",
       {
         status: 200,
         statusText: "OK",
