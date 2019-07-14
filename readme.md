@@ -1,4 +1,4 @@
-#WPFavs - WordPress.org Favorite Items -  Public API
+# WPFavs - WordPress.org Favorite Items -  Public API
 
 Fetch favorite themes and plugins form a WordPress.org user profile by his/her username and return as JSON data. This project is hosted on CloudFlares worker platform, so it fast, very fast. 
 
