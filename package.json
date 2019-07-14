@@ -1,0 +1,22 @@
+{
+  "name": "WPFavs",
+  "version": "1.0.0",
+  "description": "Fetch user's favorite themes and plugins from WordPress.org ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Hasin Hayder <countdraculla@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^2.1.0",
+    "prettier": "^1.17.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format",
+      "pre-push": "npm run format"
+    }
+  }
+}
